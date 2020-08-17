@@ -305,7 +305,9 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/sgw.jpg) no-repeat top center;
+	background-image: url(../img/sgw.jpg);
+    	background-size: cover;
+    	background-repeat: no-repeat;
 }
 
 #intro.intro {
